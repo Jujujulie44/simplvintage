@@ -1,0 +1,49 @@
+/*
+Theme Name: simplvintage Child
+Template: oceanwp
+Author: Julie André
+Version: 1.0
+Text Domain: oceanwp-child
+*/
+
+:root{
+    --color-blue:#060957;
+    --color-beige:#FFF8EF; 
+    --color-moutarde:#C39800; 
+    --color-border-grey: #808080; 
+
+}
+
+
+/****LOUPE****/ 
+
+#site-navigation-wrap .dropdown-menu>li>a.site-search-toggle {
+    display: none;
+}
+
+/******FOOTER**/ 
+
+#footer-bottom #footer-bottom-menu {
+    float: left!important;
+}
+
+#footer-bottom #footer-bottom-menu, #footer-bottom #copyright {
+    float: center!important;
+    width: 100%!important;
+    text-align: center!important;
+}
+
+/****FORMULAIRE****/ 
+
+.wpforms-container input.wpforms-field-medium{
+    max-width: 100%!important;
+}
+
+.wpforms-form button[type=submit] {
+    width: 100%;
+}
+
+.wpforms-title {
+    color:var(--color-blue)!important;
+    
+}
